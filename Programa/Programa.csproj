@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Prototype2\" />
+    <None Remove="Prototype2\Modelo\" />
+    <None Remove="Prototype2\Modelo\Utility\" />
+    <None Remove="Prototype1\" />
+    <None Remove="Common\" />
+    <None Remove="Common\AbstractClasses\" />
+    <None Remove="Common\Exceptions\" />
+    <None Remove="Common\Interfaces\" />
+    <None Remove="Prototype1\Modelo\" />
+    <None Remove="Prototype1\Modelo\Utility\" />
+    <None Remove="Common\Utility\" />
+    <None Remove="Common\Entities\" />
+    <None Remove="Common\Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Prototype2\" />
+    <Folder Include="Prototype2\Modelo\" />
+    <Folder Include="Prototype2\Modelo\Utility\" />
+    <Folder Include="Prototype1\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\AbstractClasses\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Prototype1\Modelo\" />
+    <Folder Include="Prototype1\Modelo\Utility\" />
+    <Folder Include="Common\Utility\" />
+    <Folder Include="Common\Entities\" />
+    <Folder Include="Common\Enums\" />
+  </ItemGroup>
+</Project>
